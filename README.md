@@ -3,7 +3,7 @@
 	<img src="https://raw.githubusercontent.com/anvndev/Lab1_B2AVN/master/Lab1_B2AVN/images/demo.jpg">
 </p>
 
-``html
+```html
 <!--Javascript-->
 <script type="text/javascript">
     function buyNow() {
