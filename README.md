@@ -26,7 +26,7 @@ $npm i bootstrap@5.3.0-alpha1
 	
 ```html
 $( "button.continue" ).html( "Next Step..." )
-	
+```	
 ## Event Handling
 <h2>Show the #banner-message element that is hidden with display:none in its CSS when any button in #button-container is clicked.</h2>
 ```
@@ -34,7 +34,7 @@ var hiddenBox = $( "#banner-message" );
 $( "#button-container button" ).on( "click", function( event ) {
   hiddenBox.show();
 });
-	
+```	
 ## Ajax
 <h2>Call a local script on the server /api/getWeather with the query parameter zipcode=97201 and replace the element #weather-temp's html with the returned text.</h2>
 ```
@@ -47,3 +47,4 @@ $.ajax({
     $( "#weather-temp" ).html( "<strong>" + result + "</strong> degrees" );
   }
 });
+```
