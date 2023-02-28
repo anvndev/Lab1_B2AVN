@@ -55,5 +55,5 @@ $.ajax({
   }
 });
 ```
-	<li>Thank you</li>
+by anvndev
 
