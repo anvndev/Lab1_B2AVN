@@ -52,4 +52,5 @@ $.ajax({
     $( "#weather-temp" ).html( "<strong>" + result + "</strong> degrees" );
   }
 });
+```
 
