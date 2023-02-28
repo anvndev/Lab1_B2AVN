@@ -59,5 +59,5 @@ $.ajax({
 ```
 ```
 ----------------
-[Link Demo](https://anvndev.github.io/Lab1_B2AVN/Lab1_B2AVN/index.htm)
+[Link Demo](https://anvndev.github.io/Lab1_B2AVN/Lab1_B2AVN/index.html)
 
