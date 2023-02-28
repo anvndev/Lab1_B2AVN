@@ -22,7 +22,7 @@ $npm i bootstrap@5.3.0-alpha1
 ```
 -------------
 ## DOM Traversal and Manipulation
-<h2>"Get the <button> element with the class 'continue' and change its HTML to 'Next Step...'"</h2>
+<h2>Get the <button> element with the class 'continue' and change its HTML to 'Next Step...'</h2>
 	
 ```html
 $( "button.continue" ).html( "Next Step..." )
@@ -36,8 +36,8 @@ $( "#button-container button" ).on( "click", function( event ) {
 });
 	
 ## Ajax
-Call a local script on the server /api/getWeather with the query parameter zipcode=97201 and replace the element #weather-temp's html with the returned text.
-
+<h2>Call a local script on the server /api/getWeather with the query parameter zipcode=97201 and replace the element #weather-temp's html with the returned text.</h2>
+```
 $.ajax({
   url: "/api/getWeather",
   data: {
