@@ -21,19 +21,21 @@
 $npm i bootstrap@5.3.0-alpha1
 ```
 -------------
-```
-DOM Traversal and Manipulation
-Get the <button> element with the class 'continue' and change its HTML to 'Next Step...'
-
+## DOM Traversal and Manipulation
+<h2>"Get the <button> element with the class 'continue' and change its HTML to 'Next Step...'"</h2>
+	
+```html
 $( "button.continue" ).html( "Next Step..." )
-Event Handling
-Show the #banner-message element that is hidden with display:none in its CSS when any button in #button-container is clicked.
-
+	
+## Event Handling
+<h2>Show the #banner-message element that is hidden with display:none in its CSS when any button in #button-container is clicked.</h2>
+```
 var hiddenBox = $( "#banner-message" );
 $( "#button-container button" ).on( "click", function( event ) {
   hiddenBox.show();
 });
-Ajax
+	
+## Ajax
 Call a local script on the server /api/getWeather with the query parameter zipcode=97201 and replace the element #weather-temp's html with the returned text.
 
 $.ajax({
