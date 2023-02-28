@@ -42,7 +42,9 @@ $( "#button-container button" ).on( "click", function( event ) {
 
 ## Ajax
 <h2>Call a local script on the server /api/getWeather with the query parameter zipcode=97201 and replace the element #weather-temp's html with the returned text.</h2>
-```
+
+```	
+	
 $.ajax({
   url: "/api/getWeather",
   data: {
