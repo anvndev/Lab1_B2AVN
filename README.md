@@ -16,5 +16,5 @@
 
 </script>
 
-```
+```html
 npm i bootstrap@5.3.0-alpha1
