@@ -58,8 +58,5 @@ $.ajax({
 	by anvndev
 ```
 ```
-	
-
-
 <p href="https://anvndev.github.io/Lab1_B2AVN/Lab1_B2AVN/index.html">Link Demo</p>
 
