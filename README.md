@@ -21,7 +21,7 @@
 $npm i bootstrap@5.3.0-alpha1
 ```
 -------------
-# https://jquery.com/
+[Link Jquery](https://jquery.com/)
 ## DOM Traversal and Manipulation
 <h2>Get the <button> element with the class 'continue' and change its HTML to 'Next Step...'</h2>
 	
